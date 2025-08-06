@@ -1,0 +1,1 @@
+# informacoes-i18n
