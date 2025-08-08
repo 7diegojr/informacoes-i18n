@@ -1,0 +1,30 @@
+[
+    {
+      "titulo": "Rocky",
+      "descricao": "La saga de Rocky Balboa cuenta la historia de un boxeador humilde de Filadelfia que, con mucha determinación y coraje, supera obstáculos dentro y fuera del ring para convertirse en una leyenda del deporte. Las películas exploran temas como el valor, la superación y la amistad, mostrando que la verdadera lucha es nunca rendirse.",
+      "genero": "Género",
+      "personagem": "Personaje",
+      "ator": "Actor",
+      "filmes": "Películas",
+      "plataformas": "Plataformas Disponibles",
+      "valor_genero": "Drama, Deportes",
+      "valor_personagem_principal": "Rocky Balboa",
+      "valor_ator_principal": "Sylvester Stallone",
+      "valor_filmes": "Rocky I (1976) -- Rocky II (1979) -- Rocky III (1982) -- Rocky IV (1985) -- Rocky V (1990) -- Rocky VI (2006)",
+      "valor_plataformas_disponiveis": ["Netflix", "Amazon Prime", "HBO Max"]
+    },
+    {
+      "titulo": "Creed",
+      "descricao": "La saga de Creed sigue a Adonis Creed, hijo del famoso Apollo Creed, quien lucha por conquistar su propio lugar en el boxeo y demostrar su valor. Con la ayuda de Rocky Balboa, enfrenta desafíos dentro y fuera del ring, demostrando que el coraje, la dedicación y el legado van de la mano.",
+      "genero": "Género",
+      "personagem": "Personaje",
+      "ator": "Actor",
+      "filmes": "Películas",
+      "plataformas": "Plataformas Disponibles",
+      "valor_genero": "Drama, Deportes",
+      "valor_personagem_principal": "Adonis Creed",
+      "valor_ator_principal": "Michael B. Jordan",
+      "valor_filmes": "Creed (2015) -- Creed II (2018) -- Creed III (2023)",
+      "valor_plataformas_disponiveis": ["Amazon Prime", "HBO Max"]
+    }
+  ]  
