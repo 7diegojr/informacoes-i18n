@@ -11,7 +11,7 @@
       "valor_personagem_principal": "Rocky Balboa",
       "valor_ator_principal": "Sylvester Stallone",
       "valor_filmes": "Rocky I (1976) -- Rocky II (1979) -- Rocky III (1982) -- Rocky IV (1985) -- Rocky V (1990) -- Rocky VI (2006)",
-      "valor_plataformas_disponiveis": ["Netflix", "Amazon Prime", "HBO Max"]
+      "valor_plataformas_disponiveis": ["Prime Video", "Paramount+"]
     },
     {
       "titulo": "Creed",
@@ -25,6 +25,6 @@
       "valor_personagem_principal": "Adonis Creed",
       "valor_ator_principal": "Michael B. Jordan",
       "valor_filmes": "Creed (2015) -- Creed II (2018) -- Creed III (2023)",
-      "valor_plataformas_disponiveis": ["Amazon Prime", "HBO Max"]
+      "valor_plataformas_disponiveis": "Prime Video"
     }
   ]
