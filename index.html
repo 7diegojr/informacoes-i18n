@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocky e Creed</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="botoes-linguagens">
         <button linguagem="pt">PT</button>
         <button linguagem="en">EN</button>
         <button linguagem="es">ES</button>
     </nav>
+    <section class="cards">
+        <section class="rocky">
+            <div class="rocky-img">
+                <img src="img/imgrocky.jpg" alt="Rocky Balboa">
+            </div>
+            <div class="rocky-info">
+                <h1 data-i18n="titulo">Rocky</h1>
+                <p data-i18n="descricao">A saga Rocky Balboa conta a história de um boxeador humilde da Filadélfia que,
+                    com muita garra e determinação, supera obstáculos dentro e fora do ringue para se tornar uma lenda
+                    do esporte. Os filmes exploram temas de coragem, superação e amizade, mostrando que a verdadeira
+                    luta é nunca desistir.</p>
+                <ul>
+                    <li> <strong data-i18n="genero">Genêro</strong>: <span data-i18n="valor_genero">Drama,
+                            Esporte</span></li>
+                    <li> <strong data-i18n="personagem">Personagem</strong>: <span data-i18n="valor_personagem">Rocky
+                            Balboa</span></li>
+                    <li> <strong data-i18n="ator">Ator</strong>: <span data-i18n="valor_ator">Sylvester Stallone</span>
+                    </li>
+                    <li> <strong data-i18n="plataformas">Plataformas disponíveis</strong>: <span
+                            data-i18n="valor_plataformas"><a class="prime-video"
+                                href="https://www.primevideo.com/-/pt/offers/nonprimehomepage/ref=dv_web_force_root?language=pt"
+                                target="_blank">Prime Video</a> <a class="paramount"
+                                href="https://www.paramountplus.com/br/" target="_blank">Paramount+</a></span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="filmes">
+            <h1 class="tituloSaga">Assista a saga completa:</h1>
+            <div class="nomeFilmes">
+                <ul>
+                    <li>Rocky I - Um lutador (1976)</li>
+                    <li>Rocky II - A revanche (1979)</li>
+                    <li>Rocky III - O desafio supremo (1982)</li>
+                    <li>Rocky IV (1985)</li>
+                    <li>Rocky V (1990)</li>
+                    <li>Rocky VI - Rocky Balboa (2006)</li>
+                    <li>Creed I - Nascido para Lutar (2015)</li>
+                    <li>Creed II (2018)</li>
+                    <li>Creed III (2023)</li>
+                </ul>
+            </div>
+        </section>
 
-    <section class="rocky">
-        <div class="rocky-img">
-            <img src="img/vermelho.png" alt="Rocky Balboa">
-        </div>
-        <div class="rocky-info">
-            <h1 data-i18n="titulo">Rocky</h1>
-            <p data-i18n="descricao">A saga Rocky Balboa conta a história de um boxeador humilde da Filadélfia que, com muita garra e determinação, supera obstáculos dentro e fora do ringue para se tornar uma lenda do esporte. Os filmes exploram temas de coragem, superação e amizade, mostrando que a verdadeira luta é nunca desistir.</p>
-            <ul>
-                <li> <strong data-i18n="genero">Genêro</strong>: <span data-i18n="valor_genero">Drama, Esporte</span></li>
-                <li> <strong data-i18n="personagem">Personagem</strong>: <span data-i18n="valor_personagem">Rocky Balboa</span></li>
-                <li> <strong data-i18n="ator">Ator</strong>: <span data-i18n="valor_ator">Sylvester Stallone</span></li>
-                <li> <strong data-i18n="filmes">Filmes</strong>: <span data-i18n="valor_filmes">Rocky I (1976) -- Rocky II (1979) -- Rocky III (1982) -- Rocky IV (1985) -- Rocky V (1990) -- Rocky VI (2006)</span></li>
-                <li> <strong data-i18n="plataformas">Plataformas disponíveis</strong>: <span data-i18n="valor_plataformas"><a class="prime-video" href="https://www.primevideo.com/-/pt/offers/nonprimehomepage/ref=dv_web_force_root?language=pt" target="_blank">Prime Video</a> <a class="paramount" href="https://www.paramountplus.com/br/" target="_blank">Paramount+</a></span></li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="creed">
-        <div class="creed-img">
-            <img src="img/azul.jpg" alt="Adonis Creed">
-        </div>
-        <div class="creed-info">
-            <h1 data-i18n="titulo">Creed</h1>
-            <p data-i18n="descricao">A saga Creed acompanha Adonis Creed, filho do famoso Apollo Creed, que luta para conquistar seu próprio lugar no boxe e provar seu valor. Com a ajuda de Rocky Balboa, ele enfrenta desafios dentro e fora do ringue, mostrando que coragem, dedicação e legado andam juntos.</p>
-            <ul>
-                <li> <strong data-i18n="genero">Genêro</strong>: <span data-i18n="valor_genero">Drama, Esporte</span></li>
-                <li> <strong data-i18n="personagem">Personagem</strong>: <span data-i18n="valor_personagem">Adonis Creed</span></li>
-                <li> <strong data-i18n="ator">Ator</strong>: <span data-i18n="valor_ator">Michael B. Jordan</span></li>
-                <li> <strong data-i18n="filmes">Filmes</strong>: <span data-i18n="valor_filmes">Creed (2015) -- Creed II (2018) -- Creed III (2023)</span></li>
-                <li> <strong data-i18n="plataformas">Plataformas disponíveis</strong>: <span data-i18n="valor_plataformas" ><a class="prime-video" href="https://www.primevideo.com/-/pt/offers/nonprimehomepage/ref=dv_web_force_root?language=pt" target="_blank">Prime Video</a></span></li>
-            </ul>
-        </div>
+        <section class="creed">
+            <div class="creed-img">
+                <img src="img/imgcreed.jpg" alt="Adonis Creed">
+            </div>
+            <div class="creed-info">
+                <h1 data-i18n="titulo">Creed</h1>
+                <p data-i18n="descricao">A saga Creed acompanha Adonis Creed, filho do famoso Apollo Creed, que luta
+                    para conquistar seu próprio lugar no boxe e provar seu valor. Com a ajuda de Rocky Balboa, ele
+                    enfrenta desafios dentro e fora do ringue, mostrando que coragem, dedicação e legado andam juntos.
+                </p>
+                <ul>
+                    <li> <strong data-i18n="genero">Genêro</strong>: <span data-i18n="valor_genero">Drama,
+                            Esporte</span></li>
+                    <li> <strong data-i18n="personagem">Personagem</strong>: <span data-i18n="valor_personagem">Adonis
+                            Creed</span></li>
+                    <li> <strong data-i18n="ator">Ator</strong>: <span data-i18n="valor_ator">Michael B. Jordan</span>
+                    </li>
+                    <li> <strong data-i18n="plataformas">Plataformas disponíveis</strong>: <span
+                            data-i18n="valor_plataformas"><a class="prime-video"
+                                href="https://www.primevideo.com/-/pt/offers/nonprimehomepage/ref=dv_web_force_root?language=pt"
+                                target="_blank">Prime Video</a></span></li>
+                </ul>
+            </div>
+        </section>
     </section>
     <script src="script.js"></script>
 </body>
+
 </html>
