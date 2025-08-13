@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Fira+Sans&display=swap');
 
 body {
+    height: 880px;
     margin: 0;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(22, 22, 22);
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,30 +16,30 @@ body {
 }
 
 .botoes-linguagens button {
-    background-color: aqua;
-    color: white;
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    margin-left: 10px;
-    padding: 10px 18px;
+    margin-left: 8px;
+    padding: 9px 16px;
     cursor: pointer;
 }
 
 .botoes-linguagens button:hover {
-    background-color: rgb(0, 170, 170);
+    background-color: rgb(201, 0, 0);
 }
 
 /*ROCKY*/
 .rocky {
     display: flex;
     flex-direction: column;
-    max-width: 430px;
+    max-width: 380px;
+    height: 730px;
     margin: 0;
     padding: 1em; /* menos espaço interno */
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(92, 0, 0);
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
 }
 
 .rocky-img {
@@ -49,8 +50,8 @@ body {
 }
 
 .rocky-img img {
-    max-width: 430px; /* controla tamanho da imagem */
-    max-height: 430px; /* evita altura exagerada */
+    max-width: 380px; /* controla tamanho da imagem */
+    max-height: 380px; /* evita altura exagerada */
     height: auto;
     border-radius: 10px;
     display: block;
@@ -67,7 +68,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 2em; /* levemente menor */
     margin: 0.2em 0; /* margens menores */
-    color: #e50914;
+    color: #ffffff;
 }
 
 .rocky-info p {
@@ -90,12 +91,12 @@ body {
 .creed {
     display: flex;
     flex-direction: column;
-    max-width: 430px;
+    max-width: 380px;
+    height: 730px;
     margin: 0;
     padding: 1em; /* menos espaço interno */
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(11, 0, 75);
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
 }
 
 .creed-img {
@@ -106,8 +107,8 @@ body {
 }
 
 .creed-img img {
-    max-width: 430px; /* controla tamanho da imagem */
-    max-height: 430px; /* evita altura exagerada */
+    max-width: 380px; /* controla tamanho da imagem */
+    max-height: 380px; /* evita altura exagerada */
     height: auto;
     border-radius: 10px;
     display: block;
@@ -124,7 +125,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 2em; /* levemente menor */
     margin: 0.2em 0; /* margens menores */
-    color: #e50914;
+    color: #ffffff;
 }
 
 .creed-info p {
@@ -150,7 +151,7 @@ body {
     background-color: #0564f3;
     padding: 4px 5px;
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .prime-video {
@@ -164,7 +165,7 @@ body {
   width: 100%;
   justify-content: center;
   align-items: flex-start;
-  gap: 95px;
+  gap: 35px;
 }
 
 /*SAGA*/
@@ -172,5 +173,45 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 2em; /* levemente menor */
     margin: 0.2em 0; /* margens menores */
-    color: #e50914;
+    color: #ffffff;
+    margin-bottom: 0.7em;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 530px;
+    margin: 0;
+    padding: 1em; /* menos espaço interno */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    margin: auto 0;
+    flex-wrap: nowrap;
+}
+
+
+.nomeFilmes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nomeFilmes li {
+    margin-bottom: 1em;
+    font-size: 19px;
+    font-family: monospace;
+    bottom: 10px;
+}
+
+.nomeFilmes a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nomeFilmes a:hover {
+    text-decoration: underline;
 }
